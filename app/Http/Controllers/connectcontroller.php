@@ -9,4 +9,8 @@ class connectcontroller extends Controller
     public function getlogin(){
       return view('connect.login');
     }
+
+    public function getRegister(){
+      return view('connect.register');
+    }
 }
